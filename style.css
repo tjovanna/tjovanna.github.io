@@ -1,0 +1,36 @@
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: #FFFCF8;
+}
+h1, h2 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 1em;
+}
+img {
+	display: block;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+ul {
+	text-transform: uppercase;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+li {
+	display: inline;
+	padding: 10px;
+	margin: 10px;
+}
+a{
+	color: #000000;
+}
