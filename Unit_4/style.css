@@ -44,6 +44,9 @@ a{
 figure {
 	width: 20%;
 	float: left;
+	min-width: 200px;
+	min-height: 146px;
+	overflow: hidden;
 }
 .gallery {
 	width: 90%;
