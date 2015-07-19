@@ -1,0 +1,22 @@
+#page1{
+	background-image: url(auditionroom.jpeg);
+	height: 1000px;
+}
+header {
+	background-color: blue;
+}
+h1{
+	background-color: yellow;
+}
+nav{
+	background-color: orange;
+}
+#hero{
+	background-color: gray;
+}
+.button{
+	background-color: green;
+}
+#page2{
+	background-color: purple;
+}
