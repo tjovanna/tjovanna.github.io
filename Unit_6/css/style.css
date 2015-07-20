@@ -1,18 +1,19 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
 body{
 	font-size: 16px;
 	color: #222;
+	font-family: "Oswald", sans-serif;
 }
 #page1{
 	background-image: url(http://placehold.it/1200x840);
 	height: 840px;
 }
 header {
-	background-color: blue;
+	background-color: #DAD2D8;
 }
 h1{
-	background-color: yellow;
 	font-size: 2.5em;
 	width: 260px;
 	padding: 10px;
@@ -20,57 +21,122 @@ h1{
 	float: left;
 }
 nav{
-	background-color: orange;
 	float: right;
 	margin: 20px 5px;
+}
+.secondarynav{
+	margin: 0 5px;
 }
 a{
 	font-size: 1.5em;
 	text-decoration: none;
 	padding: 20px;
+	color: #222;
+}
+#page2{
+	background-color: #3D7BA0;
 }
 h2{
-	background-color: white;
+	background-color: #8DA7BE;
 	font-size: 2em;
 	width: 5em;
+	height: 1.5em;
 	margin: 50px 10px;
+	line-height: 1.5em;
+	text-align: center;
 }
-/*#hero{
-	background-color: gray;
-	width: 25em;
-	height: 7em;
+h3{
 	font-size: 1.5em;
-	margin: 250px auto 100px auto;
-}*/
+	background-color: #3D7BA0;
+	width: 6em;
+	height: 2em;
+	margin: 2em auto;
+	padding: .5em;
+}
 .statement{
 	text-align: center;
 	padding: 2em;
-	background-color: gray;
+	background-color: #3D7BA0;
 	width: 25em;
 	height: 7em;
 	font-size: 1.5em;
 	margin: 250px auto 100px auto;
 }
 .button{
-	background-color: green;
-	width: 12em;
-	height: 2em;
+	background-color: #3D7BA0;
+	width: 13em;
+	height: 3em;
 	margin: 0 auto;
 	text-align: center;
 }
-#page2{
-	background-color: purple;
+#aboutcontent{
+	margin: 0 auto;
+	width: 58em;
 }
 p{
 	width: 15em;
 	margin: 5em;
 	font-size: 1em;
+	font-family: "Old Standard TT", serif;
 }
 #bio{
 	float:left;
 }
 #credits{
 	float:left;
+}
+#bio,#credits {
+	background-color: #CED2D8;
+}
+.bioimg {
+	height: 160px;
+}
+#aboutimgs {
+	margin: 5em 0 0 0;
+	width: 110px;
+	float: left;
+}
+#page3{
+	background-color: #3587A4;
+}
+.doforyou {
+	text-align: center;
+	padding: 2em;
+	background-color: #8DA7BE;
+	font-size: 2em;
+	margin: 80px auto;
+	width: 16em;
+}
+.services{
+	background-color: #8DA7BE;
+	width: 21%;
+	float: left;
+	margin: 2%;
+	padding: 2em;
+}
+#page4{
+	background-color: #143642;
+}
+.contact{
+	width: 12em;
+	background-color: #CED2D8;
+	height: 5em;
+	margin: 2em auto;
+}
+.contactimg{
+	height: 3em;
+	float: left;
+}
+.contactinfo{
+	float: left;
+	font-size: 1em;
+	width: 6em;
+	color: #222;
+	margin: 1em;
+}
+footer{
+	width: 5em;
+	margin: 0 auto;
 }
 .clearfix:after { 
 	content: "."; 
