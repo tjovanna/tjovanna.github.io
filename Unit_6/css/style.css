@@ -1,22 +1,81 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+	font-size: 16px;
+	color: #222;
+}
 #page1{
-	background-image: url(auditionroom.jpeg);
-	height: 1000px;
+	background-image: url(http://placehold.it/1200x840);
+	height: 840px;
 }
 header {
 	background-color: blue;
 }
 h1{
 	background-color: yellow;
+	font-size: 2.5em;
+	width: 260px;
+	padding: 10px;
+	margin: 0 10px;
+	float: left;
 }
 nav{
 	background-color: orange;
+	float: right;
+	margin: 20px 5px;
 }
-#hero{
+a{
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 20px;
+}
+h2{
+	background-color: white;
+	font-size: 2em;
+	width: 5em;
+	margin: 50px 10px;
+}
+/*#hero{
 	background-color: gray;
+	width: 25em;
+	height: 7em;
+	font-size: 1.5em;
+	margin: 250px auto 100px auto;
+}*/
+.statement{
+	text-align: center;
+	padding: 2em;
+	background-color: gray;
+	width: 25em;
+	height: 7em;
+	font-size: 1.5em;
+	margin: 250px auto 100px auto;
 }
 .button{
 	background-color: green;
+	width: 12em;
+	height: 2em;
+	margin: 0 auto;
+	text-align: center;
 }
 #page2{
 	background-color: purple;
+}
+p{
+	width: 15em;
+	margin: 5em;
+	font-size: 1em;
+}
+#bio{
+	float:left;
+}
+#credits{
+	float:left;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
