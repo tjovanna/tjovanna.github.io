@@ -5,14 +5,14 @@ body{
 	font-size: 16px;
 	color: #222;
 	font-family: "Oswald", sans-serif;
-	background-color: #CED2D8;
+	background-color: rgba(206,210,216,0.2);
 }
 #page1{
 	background-image: url(http://placehold.it/1200x840);
 	height: 820px;
 }
 header {
-	background-color: #CED2D8;
+	background-color: rgba(206,210,216,0.2);
 }
 h1{
 	font-size: 2.5em;
@@ -38,7 +38,6 @@ a:hover{
 	color: rgba(61,123,160,1);
 }
 #page2{
-	/*background-color: rgba(53,135,164,0.2);*/
 	height: 820px;
 }
 h2{
@@ -51,7 +50,7 @@ h2{
 }
 h3{
 	font-size: 1.5em;
-	background-color: rgba(141,167,190,0.2);
+	background-color: rgba(141,167,190,0.1);
 	width: 6em;
 	height: 2em;
 	margin: 2em auto;
@@ -68,7 +67,6 @@ h3{
 	margin: 250px auto 100px auto;
 }
 .button{
-/*	background-color: rgba(61,123,160,0.7);*/
 	background-color: rgba(53,135,164,0.8);
 	width: 14em;
 	height: 3em;
@@ -111,7 +109,7 @@ p{
 .doforyou {
 	text-align: center;
 	padding: 2em;
-	background-color: rgba(141,167,190,0.2);
+	background-color: rgba(141,167,190,0.1);
 	font-size: 2em;
 	margin: 0 auto;
 	width: 16em;
@@ -125,12 +123,10 @@ p{
 	padding: 2em;
 }
 #page4{
-	/*background-color: rgba(53,135,164,0.8);*/
 	height: 800px;
 }
 .contact{
 	width: 12em;
-	background-color: rgba(141,167,190,0.2);
 	height: 5em;
 	margin: 2em auto;
 }
