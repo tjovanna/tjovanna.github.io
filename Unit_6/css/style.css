@@ -8,7 +8,7 @@ body{
 	background-color: rgba(206,210,216,0.2);
 }
 #page1,#page2,#page3,#page4{
-	height: 100vh;
+	height: 95vh;
 }
 #page1{
 	background-image: url(../images/audition_room.jpeg);
