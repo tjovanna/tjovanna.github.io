@@ -7,12 +7,28 @@ body{
 	font-family: "Oswald", sans-serif;
 	background-color: rgba(206,210,216,0.2);
 }
+#page1,#page2,#page3,#page4{
+	height: 100vh;
+}
 #page1{
-	background-image: url(http://placehold.it/1200x840);
-	height: 820px;
+	background-image: url(../images/audition_room.jpeg);
+	background-size: cover;
+}
+p{
+	width: 15em;
+	margin: 3em auto;
+	font-size: 1em;
+	font-family: "Old Standard TT", serif;
 }
 header {
-	background-color: rgba(53,135,164,0.1);
+	background-color: rgba(53,135,164,0.7);
+	height: 10vh;
+}
+header>p{
+	font-size: 2em;
+	font-family: "Oswald", sans-serif;
+	padding: 0.5em;
+	margin: 0;
 }
 h1{
 	font-size: 2.5em;
@@ -23,10 +39,7 @@ h1{
 }
 nav{
 	float: right;
-	margin: 20px 5px;
-}
-.secondarynav{
-	margin: 0 5px;
+	margin: -40px 5px;
 }
 a{
 	font-size: 1.5em;
@@ -37,9 +50,19 @@ a{
 a:hover{
 	color: rgba(61,123,160,1);
 }
-#page2{
-	height: 820px;
+.cta{ 
+	background-color: rgba(53,135,164,0.8);
+	width: 9em;
+	height: 3em;
+	margin: 1em auto;
+	padding: 0em;
+	text-align: center;
+	line-height: 3em;
+	display: block;
 }
+#hero{
+	 margin: 0em auto;
+	}
 h2{
 	font-size: 2em;
 	width: 5em;
@@ -59,30 +82,19 @@ h3{
 .statement{
 	text-align: center;
 	padding: 2em;
-	background-color: #DAD2D8;
+	background-color: rgba(53,135,164,0.3);
 	width: 25em;
 	height: 7em;
 	font-size: 1.5em;
 	font-family: "Old Standard TT", serif;
-	margin: 250px auto 100px auto;
-}
-.button{
-	background-color: rgba(53,135,164,0.8);
-	width: 14em;
-	height: 3em;
-	margin: 1em auto;
-	text-align: center;
-	line-height: 3em;
+	margin: 5em auto;
 }
 #aboutcontent{
 	margin: 0 auto;
 	width: 60em;
 }
-p{
-	width: 15em;
-	margin: 5em;
-	font-size: 1em;
-	font-family: "Old Standard TT", serif;
+#aboutcontent p{
+	height:25em;
 }
 #bio{
 	float:left;
@@ -94,36 +106,35 @@ p{
 	background-color: rgba(53,135,164,0.1);
 	margin: 1%;
 	width: 23em;
+	height: 35em;
 }
 .bioimg {
-	height: 190px;
+	height: 183px;
 }
 #aboutimgs {
-	margin: 2em 0 0 0;
+	margin: 1em 0 0 0;
 	width: 110px;
 	float: left;
 }
-#page3{
-	height: 785px;
-}
-.doforyou {
+.getstarted {
 	text-align: center;
 	padding: 2em;
 	background-color: rgba(141,167,190,0.1);
 	font-size: 2em;
-	margin: 0 auto;
-	width: 16em;
+	margin: 2em auto;
+	width: 12em;
 	line-height: 0em;
 }
 .services{
 	background-color: rgba(141,167,190,0.1);
 	width: 21%;
+	height: 40vh;
 	float: left;
 	margin: 2%;
-	padding: 2em;
+	padding: 1.5em;
 }
-#page4{
-	height: 800px;
+#page3 div{
+	margin: 4em auto;
 }
 .contact{
 	width: 12em;
@@ -140,6 +151,9 @@ p{
 	width: 6em;
 	color: #222;
 	margin: 1em;
+}
+.contact p{
+	margin: 2em 1.4em;
 }
 footer{
 	width: 5em;
