@@ -136,6 +136,9 @@ a:hover{
 		font-size: 0.75em;
 		padding: 1em;
 	}
+	nav {
+		margin: 4em auto;
+	}
 	h3 {
 		display: none;
 	}
@@ -156,6 +159,9 @@ a:hover{
 	}
 	h3{
 		display: none;
+	}
+	nav {
+		margin: 4em auto;
 	}
 	li {
 		display: block;
