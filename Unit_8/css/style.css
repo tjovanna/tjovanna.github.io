@@ -19,7 +19,6 @@ h1 {
 h2{
 	font-size: 1em;
 	font-family: 'Antic Slab' serif;
-/*	padding: .05em 0 0 21.5em;*/
 	padding: 0 0.5em;
 }
 h3 {
@@ -30,7 +29,7 @@ h3 {
 nav {
 	list-style-type: none;
 	text-align: center;
-	margin: 4em auto;
+	margin: 2em auto;
 	width: 85%;
 	height: 1.5em;
 }
@@ -169,7 +168,6 @@ a:hover{
 		padding: 1em;
 	}
 	.gallery {
-		/*margin: 11em auto;*/
 		display: none;
 	}
 	.gallery-img {
