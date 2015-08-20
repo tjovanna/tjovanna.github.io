@@ -103,6 +103,7 @@ article{
 	font-size: 1em;
 	font-family: 'Antic Slab' serif;
 	padding: 1em 0;
+}
 
 .clearfix:after { 
 	content: "."; 
