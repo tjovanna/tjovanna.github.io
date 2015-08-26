@@ -940,7 +940,7 @@ input {
 	#slide20.page1:checked ~ #controls.page1 label:nth-child(19), 
 	#slide21.page1:checked ~ #controls.page1 label:nth-child(20), 
 	#slide22.page1:checked ~ #controls.page1 label:nth-child(21) {
-		margin: 0 9em;
+		margin: 0 7em;
 	}
 	
 	#slide1.page2:checked ~ #controls.page2 label:nth-child(15), 
@@ -958,7 +958,7 @@ input {
 	#slide13.page2:checked ~ #controls.page2 label:nth-child(12), 
 	#slide14.page2:checked ~ #controls.page2 label:nth-child(13), 
 	#slide15.page2:checked ~ #controls.page2 label:nth-child(14) {
-		margin: 0 9em;
+		margin: 0 7em;
 	}
 	#slide1.page3:checked ~ #controls.page3 label:nth-child(16), 
 	#slide2.page3:checked ~ #controls.page3 label:nth-child(1), 
@@ -976,7 +976,7 @@ input {
 	#slide14.page3:checked ~ #controls.page3 label:nth-child(13), 
 	#slide15.page3:checked ~ #controls.page3 label:nth-child(14), 
 	#slide16.page3:checked ~ #controls.page3 label:nth-child(15) {
-		margin: 0 9em;
+		margin: 0 7em;
 	}
 	#slide1.page4:checked ~ #controls.page4 label:nth-child(17), 
 	#slide2.page4:checked ~ #controls.page4 label:nth-child(1), 
@@ -995,7 +995,7 @@ input {
 	#slide15.page4:checked ~ #controls.page4 label:nth-child(14), 
 	#slide16.page4:checked ~ #controls.page4 label:nth-child(15), 
 	#slide17.page4:checked ~ #controls.page4 label:nth-child(16) {
-		margin: 0 9em;
+		margin: 0 7em;
 	}
 	#slide1.page5:checked ~ #controls.page5 label:nth-child(7),
 	#slide2.page5:checked ~ #controls.page5 label:nth-child(1),
@@ -1004,7 +1004,7 @@ input {
 	#slide5.page5:checked ~ #controls.page5 label:nth-child(4),
 	#slide6.page5:checked ~ #controls.page5 label:nth-child(5),
 	#slide7.page5:checked ~ #controls.page5 label:nth-child(6){
-		margin: 0 9em;
+		margin: 0 7em;
 	}
 }
 @media only screen and (max-width: 520px) {
