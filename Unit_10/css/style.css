@@ -325,20 +325,6 @@ input {
 	transition: opacity 0.2s ease-out;
 }
 
-/*#slide1.page5:checked ~ #slides.page5 article:nth-child(1) .info,
-#slide2.page5:checked ~ #slides.page5 article:nth-child(2) .info,
-#slide3.page5:checked ~ #slides.page5 article:nth-child(3) .info,
-#slide4.page5:checked ~ #slides.page5 article:nth-child(4) .info,
-#slide5.page5:checked ~ #slides.page5 article:nth-child(5) .info,
-#slide6.page5:checked ~ #slides.page5 article:nth-child(6) .info,
-#slide7.page5:checked ~ #slides.page5 article:nth-child(7) .info {
-	opacity: 1;
-	-webkit-transition: all 1s ease-out 0.6s;
-	-moz-transition: all 1s ease-out 0.6s;
-	-o-transition: all 1s ease-out 0.6s;
-	transition: all 1s ease-out 0.6s;
-}
-*/
 #controls, #slides, #active, #active label {
 	-webkit-transform: translateZ(0);
 	-webkit-transition: all 0.5s ease-out;
@@ -1045,20 +1031,13 @@ input {
 		width: 46%;
 		height: 10em;
 	}
-	/*#menu {
-		display: none;
-	}
-	#checkbox:checked + #menu {
-		display: block;
-	}*/
-		#slider #controls {
+	#slider #controls {
 		margin: -13em auto;
 		width: 50%;
 		height: 50px;
 	}
 
 	#slider #active {
-	/*	margin: 23% 0 0;*/
 		display: none;
 	}
 
