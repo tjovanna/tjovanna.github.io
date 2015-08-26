@@ -114,14 +114,88 @@ a:hover{
 input {
 	display: none;
 }
+#slide1.page1:checked ~ #slides.page1 .inner { margin-left:0; }
+#slide2.page1:checked ~ #slides.page1 .inner { margin-left:-100%; }
+#slide3.page1:checked ~ #slides.page1 .inner { margin-left:-200%; }
+#slide4.page1:checked ~ #slides.page1 .inner { margin-left:-300%; }
+#slide5.page1:checked ~ #slides.page1 .inner { margin-left:-400%; }
+#slide6.page1:checked ~ #slides.page1 .inner { margin-left:-500%; }
+#slide7.page1:checked ~ #slides.page1 .inner { margin-left:-600%; }
+#slide8.page1:checked ~ #slides.page1 .inner { margin-left:-700%; }
+#slide9.page1:checked ~ #slides.page1 .inner { margin-left:-800%; }
+#slide10.page1:checked ~ #slides.page1 .inner { margin-left:-900%; }
+#slide11.page1:checked ~ #slides.page1 .inner { margin-left:-1000%; }
+#slide12.page1:checked ~ #slides.page1 .inner { margin-left:-1100%; }
+#slide13.page1:checked ~ #slides.page1 .inner { margin-left:-1200%; }
+#slide14.page1:checked ~ #slides.page1 .inner { margin-left:-1300%; }
+#slide15.page1:checked ~ #slides.page1 .inner { margin-left:-1400%; }
+#slide16.page1:checked ~ #slides.page1 .inner { margin-left:-1500%; }
+#slide17.page1:checked ~ #slides.page1 .inner { margin-left:-1600%; }
+#slide18.page1:checked ~ #slides.page1 .inner { margin-left:-1700%; }
+#slide19.page1:checked ~ #slides.page1 .inner { margin-left:-1800%; }
+#slide20.page1:checked ~ #slides.page1 .inner { margin-left:-1900%; }
+#slide21.page1:checked ~ #slides.page1 .inner { margin-left:-2000%; }
+#slide22.page1:checked ~ #slides.page1 .inner { margin-left:-2100%; }
 
-#slide1:checked ~ #slides .inner { margin-left:0; }
-#slide2:checked ~ #slides .inner { margin-left:-100%; }
-#slide3:checked ~ #slides .inner { margin-left:-200%; }
-#slide4:checked ~ #slides .inner { margin-left:-300%; }
-#slide5:checked ~ #slides .inner { margin-left:-400%; }
-#slide6:checked ~ #slides .inner { margin-left:-500%; }
-#slide7:checked ~ #slides .inner { margin-left:-600%; }
+
+#slide1.page2:checked ~ #slides.page2 .inner { margin-left:0; }
+#slide2.page2:checked ~ #slides.page2 .inner { margin-left:-100%; }
+#slide3.page2:checked ~ #slides.page2 .inner { margin-left:-200%; }
+#slide4.page2:checked ~ #slides.page2 .inner { margin-left:-300%; }
+#slide5.page2:checked ~ #slides.page2 .inner { margin-left:-400%; }
+#slide6.page2:checked ~ #slides.page2 .inner { margin-left:-500%; }
+#slide7.page2:checked ~ #slides.page2 .inner { margin-left:-600%; }
+#slide8.page2:checked ~ #slides.page2 .inner { margin-left:-700%; }
+#slide9.page2:checked ~ #slides.page2 .inner { margin-left:-800%; }
+#slide10.page2:checked ~ #slides.page2 .inner { margin-left:-900%; }
+#slide11.page2:checked ~ #slides.page2 .inner { margin-left:-1000%; }
+#slide12.page2:checked ~ #slides.page2 .inner { margin-left:-1100%; }
+#slide13.page2:checked ~ #slides.page2 .inner { margin-left:-1200%; }
+#slide14.page2:checked ~ #slides.page2 .inner { margin-left:-1300%; }
+#slide15.page2:checked ~ #slides.page2 .inner { margin-left:-1400%; }
+
+#slide1.page3:checked ~ #slides.page3 .inner { margin-left:0; }
+#slide2.page3:checked ~ #slides.page3 .inner { margin-left:-100%; }
+#slide3.page3:checked ~ #slides.page3 .inner { margin-left:-200%; }
+#slide4.page3:checked ~ #slides.page3 .inner { margin-left:-300%; }
+#slide5.page3:checked ~ #slides.page3 .inner { margin-left:-400%; }
+#slide6.page3:checked ~ #slides.page3 .inner { margin-left:-500%; }
+#slide7.page3:checked ~ #slides.page3 .inner { margin-left:-600%; }
+#slide8.page3:checked ~ #slides.page3 .inner { margin-left:-700%; }
+#slide9.page3:checked ~ #slides.page3 .inner { margin-left:-800%; }
+#slide10.page3:checked ~ #slides.page3 .inner { margin-left:-900%; }
+#slide11.page3:checked ~ #slides.page3 .inner { margin-left:-1000%; }
+#slide12.page3:checked ~ #slides.page3 .inner { margin-left:-1100%; }
+#slide13.page3:checked ~ #slides.page3 .inner { margin-left:-1200%; }
+#slide14.page3:checked ~ #slides.page3 .inner { margin-left:-1300%; }
+#slide15.page3:checked ~ #slides.page3 .inner { margin-left:-1400%; }
+#slide16.page3:checked ~ #slides.page3 .inner { margin-left:-1500%; }
+
+#slide1.page4:checked ~ #slides.page4 .inner { margin-left:0; }
+#slide2.page4:checked ~ #slides.page4 .inner { margin-left:-100%; }
+#slide3.page4:checked ~ #slides.page4 .inner { margin-left:-200%; }
+#slide4.page4:checked ~ #slides.page4 .inner { margin-left:-300%; }
+#slide5.page4:checked ~ #slides.page4 .inner { margin-left:-400%; }
+#slide6.page4:checked ~ #slides.page4 .inner { margin-left:-500%; }
+#slide7.page4:checked ~ #slides.page4 .inner { margin-left:-600%; }
+#slide8.page4:checked ~ #slides.page4 .inner { margin-left:-700%; }
+#slide9.page4:checked ~ #slides.page4 .inner { margin-left:-800%; }
+#slide10.page4:checked ~ #slides.page4 .inner { margin-left:-900%; }
+#slide11.page4:checked ~ #slides.page4 .inner { margin-left:-1000%; }
+#slide12.page4:checked ~ #slides.page4 .inner { margin-left:-1100%; }
+#slide13.page4:checked ~ #slides.page4 .inner { margin-left:-1200%; }
+#slide14.page4:checked ~ #slides.page4 .inner { margin-left:-1300%; }
+#slide15.page4:checked ~ #slides.page4 .inner { margin-left:-1400%; }
+#slide16.page4:checked ~ #slides.page4 .inner { margin-left:-1500%; }
+#slide17.page4:checked ~ #slides.page4 .inner { margin-left:-1600%; }
+
+#slide1.page5:checked ~ #slides.page5 .inner { margin-left:0; }
+#slide2.page5:checked ~ #slides.page5 .inner { margin-left:-100%; }
+#slide3.page5:checked ~ #slides.page5 .inner { margin-left:-200%; }
+#slide4.page5:checked ~ #slides.page5 .inner { margin-left:-300%; }
+#slide5.page5:checked ~ #slides.page5 .inner { margin-left:-400%; }
+#slide6.page5:checked ~ #slides.page5 .inner { margin-left:-500%; }
+#slide7.page5:checked ~ #slides.page5 .inner { margin-left:-600%; }
 
 #overflow {
 	width: 100%;
@@ -130,13 +204,41 @@ input {
 }
 
 #slides .inner {
-	width: 700%;
 	line-height: 0;
+}
+#slides.page1 .inner {
+	width: 2200%;
+}
+#slides.page2 .inner {
+	width: 1500%;
+}
+#slides.page3 .inner {
+	width: 1600%;
+}
+#slides.page4 .inner {
+	width: 1700%;
+}
+#slides.page5 .inner {
+	width: 700%;
 }
 
 #slides article {
-	width: 14.28%;
 	float: left;
+}
+#slides.page1 article {
+	width: 4.54%;
+}
+#slides.page2 article {
+	width: 6.66%;
+}
+#slides.page3 article {
+	width: 6.25%;
+}
+#slides.page4 article {
+	width: 5.88%;
+}
+#slides.page5 article {
+	width: 14.28%;
 }
 /* Slider Styling 
 /* Control Setup */
@@ -223,20 +325,20 @@ input {
 	transition: opacity 0.2s ease-out;
 }
 
-#slide1:checked ~ #slides article:nth-child(1) .info,
-#slide2:checked ~ #slides article:nth-child(2) .info,
-#slide3:checked ~ #slides article:nth-child(3) .info,
-#slide4:checked ~ #slides article:nth-child(4) .info,
-#slide5:checked ~ #slides article:nth-child(5) .info,
-#slide6:checked ~ #slides article:nth-child(6) .info,
-#slide7:checked ~ #slides article:nth-child(7) .info {
+/*#slide1.page5:checked ~ #slides.page5 article:nth-child(1) .info,
+#slide2.page5:checked ~ #slides.page5 article:nth-child(2) .info,
+#slide3.page5:checked ~ #slides.page5 article:nth-child(3) .info,
+#slide4.page5:checked ~ #slides.page5 article:nth-child(4) .info,
+#slide5.page5:checked ~ #slides.page5 article:nth-child(5) .info,
+#slide6.page5:checked ~ #slides.page5 article:nth-child(6) .info,
+#slide7.page5:checked ~ #slides.page5 article:nth-child(7) .info {
 	opacity: 1;
 	-webkit-transition: all 1s ease-out 0.6s;
 	-moz-transition: all 1s ease-out 0.6s;
 	-o-transition: all 1s ease-out 0.6s;
 	transition: all 1s ease-out 0.6s;
 }
-
+*/
 #controls, #slides, #active, #active label {
 	-webkit-transform: translateZ(0);
 	-webkit-transition: all 0.5s ease-out;
@@ -244,13 +346,104 @@ input {
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
-#slide1:checked ~ #controls label:nth-child(2), 
-#slide2:checked ~ #controls label:nth-child(3), 
-#slide3:checked ~ #controls label:nth-child(4), 
-#slide4:checked ~ #controls label:nth-child(5), 
-#slide5:checked ~ #controls label:nth-child(6),
-#slide6:checked ~ #controls label:nth-child(7),
-#slide7:checked ~ #controls label:nth-child(1) {
+/*Next Button*/
+#slide1.page1:checked ~ #controls.page1 label:nth-child(2), 
+#slide2.page1:checked ~ #controls.page1 label:nth-child(3), 
+#slide3.page1:checked ~ #controls.page1 label:nth-child(4), 
+#slide4.page1:checked ~ #controls.page1 label:nth-child(5), 
+#slide5.page1:checked ~ #controls.page1 label:nth-child(6), 
+#slide6.page1:checked ~ #controls.page1 label:nth-child(7), 
+#slide7.page1:checked ~ #controls.page1 label:nth-child(8), 
+#slide8.page1:checked ~ #controls.page1 label:nth-child(9), 
+#slide9.page1:checked ~ #controls.page1 label:nth-child(10), 
+#slide10.page1:checked ~ #controls.page1 label:nth-child(11), 
+#slide11.page1:checked ~ #controls.page1 label:nth-child(12), 
+#slide12.page1:checked ~ #controls.page1 label:nth-child(13), 
+#slide13.page1:checked ~ #controls.page1 label:nth-child(14), 
+#slide14.page1:checked ~ #controls.page1 label:nth-child(15), 
+#slide15.page1:checked ~ #controls.page1 label:nth-child(16), 
+#slide16.page1:checked ~ #controls.page1 label:nth-child(17), 
+#slide17.page1:checked ~ #controls.page1 label:nth-child(18), 
+#slide18.page1:checked ~ #controls.page1 label:nth-child(19), 
+#slide19.page1:checked ~ #controls.page1 label:nth-child(20), 
+#slide20.page1:checked ~ #controls.page1 label:nth-child(21), 
+#slide21.page1:checked ~ #controls.page1 label:nth-child(22), 
+#slide22.page1:checked ~ #controls.page1 label:nth-child(1) {
+	background: url(../images/next.png) no-repeat;
+	float: right;
+	margin: 0 -9em;
+	display: block;
+}
+#slide1.page2:checked ~ #controls.page2 label:nth-child(2), 
+#slide2.page2:checked ~ #controls.page2 label:nth-child(3), 
+#slide3.page2:checked ~ #controls.page2 label:nth-child(4), 
+#slide4.page2:checked ~ #controls.page2 label:nth-child(5), 
+#slide5.page2:checked ~ #controls.page2 label:nth-child(6), 
+#slide6.page2:checked ~ #controls.page2 label:nth-child(7), 
+#slide7.page2:checked ~ #controls.page2 label:nth-child(8), 
+#slide8.page2:checked ~ #controls.page2 label:nth-child(9), 
+#slide9.page2:checked ~ #controls.page2 label:nth-child(10), 
+#slide10.page2:checked ~ #controls.page2 label:nth-child(11), 
+#slide11.page2:checked ~ #controls.page2 label:nth-child(12), 
+#slide12.page2:checked ~ #controls.page2 label:nth-child(13), 
+#slide13.page2:checked ~ #controls.page2 label:nth-child(14), 
+#slide14.page2:checked ~ #controls.page2 label:nth-child(15), 
+#slide15.page2:checked ~ #controls.page2 label:nth-child(1)  {
+	background: url(../images/next.png) no-repeat;
+	float: right;
+	margin: 0 -9em;
+	display: block;
+}
+#slide1.page3:checked ~ #controls.page3 label:nth-child(2), 
+#slide2.page3:checked ~ #controls.page3 label:nth-child(3), 
+#slide3.page3:checked ~ #controls.page3 label:nth-child(4), 
+#slide4.page3:checked ~ #controls.page3 label:nth-child(5), 
+#slide5.page3:checked ~ #controls.page3 label:nth-child(6), 
+#slide6.page3:checked ~ #controls.page3 label:nth-child(7), 
+#slide7.page3:checked ~ #controls.page3 label:nth-child(8), 
+#slide8.page3:checked ~ #controls.page3 label:nth-child(9), 
+#slide9.page3:checked ~ #controls.page3 label:nth-child(10), 
+#slide10.page3:checked ~ #controls.page3 label:nth-child(11), 
+#slide11.page3:checked ~ #controls.page3 label:nth-child(12), 
+#slide12.page3:checked ~ #controls.page3 label:nth-child(13), 
+#slide13.page3:checked ~ #controls.page3 label:nth-child(14), 
+#slide14.page3:checked ~ #controls.page3 label:nth-child(15), 
+#slide15.page3:checked ~ #controls.page3 label:nth-child(16), 
+#slide16.page3:checked ~ #controls.page3 label:nth-child(1) {
+	background: url(../images/next.png) no-repeat;
+	float: right;
+	margin: 0 -9em;
+	display: block;
+}
+#slide1.page4:checked ~ #controls.page4 label:nth-child(2), 
+#slide2.page4:checked ~ #controls.page4 label:nth-child(3), 
+#slide3.page4:checked ~ #controls.page4 label:nth-child(4), 
+#slide4.page4:checked ~ #controls.page4 label:nth-child(5), 
+#slide5.page4:checked ~ #controls.page4 label:nth-child(6), 
+#slide6.page4:checked ~ #controls.page4 label:nth-child(7), 
+#slide7.page4:checked ~ #controls.page4 label:nth-child(8), 
+#slide8.page4:checked ~ #controls.page4 label:nth-child(9), 
+#slide9.page4:checked ~ #controls.page4 label:nth-child(10), 
+#slide10.page4:checked ~ #controls.page4 label:nth-child(11), 
+#slide11.page4:checked ~ #controls.page4 label:nth-child(12), 
+#slide12.page4:checked ~ #controls.page4 label:nth-child(13), 
+#slide13.page4:checked ~ #controls.page4 label:nth-child(14), 
+#slide14.page4:checked ~ #controls.page4 label:nth-child(15), 
+#slide15.page4:checked ~ #controls.page4 label:nth-child(16), 
+#slide16.page4:checked ~ #controls.page4 label:nth-child(17), 
+#slide17.page4:checked ~ #controls.page4 label:nth-child(1) {
+	background: url(../images/next.png) no-repeat;
+	float: right;
+	margin: 0 -9em;
+	display: block;
+}
+#slide1.page5:checked ~ #controls.page5 label:nth-child(2), 
+#slide2.page5:checked ~ #controls.page5 label:nth-child(3), 
+#slide3.page5:checked ~ #controls.page5 label:nth-child(4), 
+#slide4.page5:checked ~ #controls.page5 label:nth-child(5), 
+#slide5.page5:checked ~ #controls.page5 label:nth-child(6),
+#slide6.page5:checked ~ #controls.page5 label:nth-child(7),
+#slide7.page5:checked ~ #controls.page5 label:nth-child(1) {
 	background: url(../images/next.png) no-repeat;
 	float: right;
 	margin: 0 -9em;
@@ -258,29 +451,138 @@ input {
 }
 
 
-#slide1:checked ~ #controls label:nth-child(7),
-#slide2:checked ~ #controls label:nth-child(1),
-#slide3:checked ~ #controls label:nth-child(2),
-#slide4:checked ~ #controls label:nth-child(3),
-#slide5:checked ~ #controls label:nth-child(4),
-#slide6:checked ~ #controls label:nth-child(5),
-#slide7:checked ~ #controls label:nth-child(6) {
+/*Previous Button*/
+#slide1.page1:checked ~ #controls.page1 label:nth-child(22), 
+#slide2.page1:checked ~ #controls.page1 label:nth-child(1), 
+#slide3.page1:checked ~ #controls.page1 label:nth-child(2), 
+#slide4.page1:checked ~ #controls.page1 label:nth-child(3), 
+#slide5.page1:checked ~ #controls.page1 label:nth-child(4), 
+#slide6.page1:checked ~ #controls.page1 label:nth-child(5), 
+#slide7.page1:checked ~ #controls.page1 label:nth-child(6), 
+#slide8.page1:checked ~ #controls.page1 label:nth-child(7), 
+#slide9.page1:checked ~ #controls.page1 label:nth-child(8), 
+#slide10.page1:checked ~ #controls.page1 label:nth-child(9), 
+#slide11.page1:checked ~ #controls.page1 label:nth-child(10), 
+#slide12.page1:checked ~ #controls.page1 label:nth-child(11), 
+#slide13.page1:checked ~ #controls.page1 label:nth-child(12), 
+#slide14.page1:checked ~ #controls.page1 label:nth-child(13), 
+#slide15.page1:checked ~ #controls.page1 label:nth-child(14), 
+#slide16.page1:checked ~ #controls.page1 label:nth-child(15), 
+#slide17.page1:checked ~ #controls.page1 label:nth-child(16), 
+#slide18.page1:checked ~ #controls.page1 label:nth-child(17), 
+#slide19.page1:checked ~ #controls.page1 label:nth-child(18), 
+#slide20.page1:checked ~ #controls.page1 label:nth-child(19), 
+#slide21.page1:checked ~ #controls.page1 label:nth-child(20), 
+#slide22.page1:checked ~ #controls.page1 label:nth-child(21) {
 	background: url(../images/prev.png) no-repeat;
 	float: left;
 	margin: 0 3em;
 	display: block;
 }
 
-#slide1:checked ~ #active label:nth-child(1),
-#slide2:checked ~ #active label:nth-child(2),
-#slide3:checked ~ #active label:nth-child(3),
-#slide4:checked ~ #active label:nth-child(4),
-#slide5:checked ~ #active label:nth-child(5),
-#slide6:checked ~ #active label:nth-child(6),
-#slide7:checked ~ #active label:nth-child(7) {
-	background: #222;
-	border-color: #222 !important;
+#slide1.page2:checked ~ #controls.page2 label:nth-child(15), 
+#slide2.page2:checked ~ #controls.page2 label:nth-child(1), 
+#slide3.page2:checked ~ #controls.page2 label:nth-child(2), 
+#slide4.page2:checked ~ #controls.page2 label:nth-child(3), 
+#slide5.page2:checked ~ #controls.page2 label:nth-child(4), 
+#slide6.page2:checked ~ #controls.page2 label:nth-child(5), 
+#slide7.page2:checked ~ #controls.page2 label:nth-child(6), 
+#slide8.page2:checked ~ #controls.page2 label:nth-child(7), 
+#slide9.page2:checked ~ #controls.page2 label:nth-child(8), 
+#slide10.page2:checked ~ #controls.page2 label:nth-child(9), 
+#slide11.page2:checked ~ #controls.page2 label:nth-child(10), 
+#slide12.page2:checked ~ #controls.page2 label:nth-child(11), 
+#slide13.page2:checked ~ #controls.page2 label:nth-child(12), 
+#slide14.page2:checked ~ #controls.page2 label:nth-child(13), 
+#slide15.page2:checked ~ #controls.page2 label:nth-child(14) {
+	background: url(../images/prev.png) no-repeat;
+	float: left;
+	margin: 0 3em;
+	display: block;
 }
+#slide1.page3:checked ~ #controls.page3 label:nth-child(16), 
+#slide2.page3:checked ~ #controls.page3 label:nth-child(1), 
+#slide3.page3:checked ~ #controls.page3 label:nth-child(2), 
+#slide4.page3:checked ~ #controls.page3 label:nth-child(3), 
+#slide5.page3:checked ~ #controls.page3 label:nth-child(4), 
+#slide6.page3:checked ~ #controls.page3 label:nth-child(5), 
+#slide7.page3:checked ~ #controls.page3 label:nth-child(6), 
+#slide8.page3:checked ~ #controls.page3 label:nth-child(7), 
+#slide9.page3:checked ~ #controls.page3 label:nth-child(8), 
+#slide10.page3:checked ~ #controls.page3 label:nth-child(9), 
+#slide11.page3:checked ~ #controls.page3 label:nth-child(10), 
+#slide12.page3:checked ~ #controls.page3 label:nth-child(11), 
+#slide13.page3:checked ~ #controls.page3 label:nth-child(12), 
+#slide14.page3:checked ~ #controls.page3 label:nth-child(13), 
+#slide15.page3:checked ~ #controls.page3 label:nth-child(14), 
+#slide16.page3:checked ~ #controls.page3 label:nth-child(15) {
+	background: url(../images/prev.png) no-repeat;
+	float: left;
+	margin: 0 3em;
+	display: block;
+}
+#slide1.page4:checked ~ #controls.page4 label:nth-child(17), 
+#slide2.page4:checked ~ #controls.page4 label:nth-child(1), 
+#slide3.page4:checked ~ #controls.page4 label:nth-child(2), 
+#slide4.page4:checked ~ #controls.page4 label:nth-child(3), 
+#slide5.page4:checked ~ #controls.page4 label:nth-child(4), 
+#slide6.page4:checked ~ #controls.page4 label:nth-child(5), 
+#slide7.page4:checked ~ #controls.page4 label:nth-child(6), 
+#slide8.page4:checked ~ #controls.page4 label:nth-child(7), 
+#slide9.page4:checked ~ #controls.page4 label:nth-child(8), 
+#slide10.page4:checked ~ #controls.page4 label:nth-child(9), 
+#slide11.page4:checked ~ #controls.page4 label:nth-child(10), 
+#slide12.page4:checked ~ #controls.page4 label:nth-child(11), 
+#slide13.page4:checked ~ #controls.page4 label:nth-child(12), 
+#slide14.page4:checked ~ #controls.page4 label:nth-child(13), 
+#slide15.page4:checked ~ #controls.page4 label:nth-child(14), 
+#slide16.page4:checked ~ #controls.page4 label:nth-child(15), 
+#slide17.page4:checked ~ #controls.page4 label:nth-child(16) {
+	background: url(../images/prev.png) no-repeat;
+	float: left;
+	margin: 0 3em;
+	display: block;
+}
+#slide1.page5:checked ~ #controls.page5 label:nth-child(7),
+#slide2.page5:checked ~ #controls.page5 label:nth-child(1),
+#slide3.page5:checked ~ #controls.page5 label:nth-child(2),
+#slide4.page5:checked ~ #controls.page5 label:nth-child(3),
+#slide5.page5:checked ~ #controls.page5 label:nth-child(4),
+#slide6.page5:checked ~ #controls.page5 label:nth-child(5),
+#slide7.page5:checked ~ #controls.page5 label:nth-child(6) {
+	background: url(../images/prev.png) no-repeat;
+	float: left;
+	margin: 0 3em;
+	display: block;
+}
+
+/*Active dots*/
+#slide1:checked ~ #active label:nth-child(1), 
+#slide2:checked ~ #active label:nth-child(2), 
+#slide3:checked ~ #active label:nth-child(3), 
+#slide4:checked ~ #active label:nth-child(4), 
+#slide5:checked ~ #active label:nth-child(5), 
+#slide6:checked ~ #active label:nth-child(6), 
+#slide7:checked ~ #active label:nth-child(7), 
+#slide8:checked ~ #active label:nth-child(8), 
+#slide9:checked ~ #active label:nth-child(9), 
+#slide10:checked ~ #active label:nth-child(10), 
+#slide11:checked ~ #active label:nth-child(11), 
+#slide12:checked ~ #active label:nth-child(12), 
+#slide13:checked ~ #active label:nth-child(13), 
+#slide14:checked ~ #active label:nth-child(14), 
+#slide15:checked ~ #active label:nth-child(15), 
+#slide16:checked ~ #active label:nth-child(16), 
+#slide17:checked ~ #active label:nth-child(17), 
+#slide18:checked ~ #active label:nth-child(18), 
+#slide19:checked ~ #active label:nth-child(19), 
+#slide20:checked ~ #active label:nth-child(20), 
+#slide21:checked ~ #active label:nth-child(21), 
+#slide22:checked ~ #active label:nth-child(22) {
+		background: #222;
+		border-color: #222 !important;
+}
+
 @media only screen and (min-width: 1000px) and (max-width: 1330px) {
 	li { 
 		font-size: 0.75em;
@@ -315,23 +617,180 @@ input {
 	#controls{
 		margin: 2em auto;
 	}
-	#slide1:checked ~ #controls label:nth-child(2), 
-	#slide2:checked ~ #controls label:nth-child(3), 
-	#slide3:checked ~ #controls label:nth-child(4), 
-	#slide4:checked ~ #controls label:nth-child(5), 
-	#slide5:checked ~ #controls label:nth-child(6),
-	#slide6:checked ~ #controls label:nth-child(7),
-	#slide7:checked ~ #controls label:nth-child(1) {
+/*Next  */
+	#slide1.page1:checked ~ #controls.page1 label:nth-child(2), 
+	#slide2.page1:checked ~ #controls.page1 label:nth-child(3), 
+	#slide3.page1:checked ~ #controls.page1 label:nth-child(4), 
+	#slide4.page1:checked ~ #controls.page1 label:nth-child(5), 
+	#slide5.page1:checked ~ #controls.page1 label:nth-child(6), 
+	#slide6.page1:checked ~ #controls.page1 label:nth-child(7), 
+	#slide7.page1:checked ~ #controls.page1 label:nth-child(8), 
+	#slide8.page1:checked ~ #controls.page1 label:nth-child(9), 
+	#slide9.page1:checked ~ #controls.page1 label:nth-child(10), 
+	#slide10.page1:checked ~ #controls.page1 label:nth-child(11), 
+	#slide11.page1:checked ~ #controls.page1 label:nth-child(12), 
+	#slide12.page1:checked ~ #controls.page1 label:nth-child(13), 
+	#slide13.page1:checked ~ #controls.page1 label:nth-child(14), 
+	#slide14.page1:checked ~ #controls.page1 label:nth-child(15), 
+	#slide15.page1:checked ~ #controls.page1 label:nth-child(16), 
+	#slide16.page1:checked ~ #controls.page1 label:nth-child(17), 
+	#slide17.page1:checked ~ #controls.page1 label:nth-child(18), 
+	#slide18.page1:checked ~ #controls.page1 label:nth-child(19), 
+	#slide19.page1:checked ~ #controls.page1 label:nth-child(20), 
+	#slide20.page1:checked ~ #controls.page1 label:nth-child(21), 
+	#slide21.page1:checked ~ #controls.page1 label:nth-child(22), 
+	#slide22.page1:checked ~ #controls.page1 label:nth-child(1) {
 		margin: 0 -6em;
 	}
-
-	#slide1:checked ~ #controls label:nth-child(7),
-	#slide2:checked ~ #controls label:nth-child(1),
-	#slide3:checked ~ #controls label:nth-child(2),
-	#slide4:checked ~ #controls label:nth-child(3),
-	#slide5:checked ~ #controls label:nth-child(4),
-	#slide6:checked ~ #controls label:nth-child(5),
-	#slide7:checked ~ #controls label:nth-child(6) {
+	#slide1.page2:checked ~ #controls.page2 label:nth-child(2), 
+	#slide2.page2:checked ~ #controls.page2 label:nth-child(3), 
+	#slide3.page2:checked ~ #controls.page2 label:nth-child(4), 
+	#slide4.page2:checked ~ #controls.page2 label:nth-child(5), 
+	#slide5.page2:checked ~ #controls.page2 label:nth-child(6), 
+	#slide6.page2:checked ~ #controls.page2 label:nth-child(7), 
+	#slide7.page2:checked ~ #controls.page2 label:nth-child(8), 
+	#slide8.page2:checked ~ #controls.page2 label:nth-child(9), 
+	#slide9.page2:checked ~ #controls.page2 label:nth-child(10), 
+	#slide10.page2:checked ~ #controls.page2 label:nth-child(11), 
+	#slide11.page2:checked ~ #controls.page2 label:nth-child(12), 
+	#slide12.page2:checked ~ #controls.page2 label:nth-child(13), 
+	#slide13.page2:checked ~ #controls.page2 label:nth-child(14), 
+	#slide14.page2:checked ~ #controls.page2 label:nth-child(15), 
+	#slide15.page2:checked ~ #controls.page2 label:nth-child(1) {
+		margin: 0 -6em;
+	}
+	#slide1.page3:checked ~ #controls.page3 label:nth-child(2), 
+	#slide2.page3:checked ~ #controls.page3 label:nth-child(3), 
+	#slide3.page3:checked ~ #controls.page3 label:nth-child(4), 
+	#slide4.page3:checked ~ #controls.page3 label:nth-child(5), 
+	#slide5.page3:checked ~ #controls.page3 label:nth-child(6), 
+	#slide6.page3:checked ~ #controls.page3 label:nth-child(7), 
+	#slide7.page3:checked ~ #controls.page3 label:nth-child(8), 
+	#slide8.page3:checked ~ #controls.page3 label:nth-child(9), 
+	#slide9.page3:checked ~ #controls.page3 label:nth-child(10), 
+	#slide10.page3:checked ~ #controls.page3 label:nth-child(11), 
+	#slide11.page3:checked ~ #controls.page3 label:nth-child(12), 
+	#slide12.page3:checked ~ #controls.page3 label:nth-child(13), 
+	#slide13.page3:checked ~ #controls.page3 label:nth-child(14), 
+	#slide14.page3:checked ~ #controls.page3 label:nth-child(15), 
+	#slide15.page3:checked ~ #controls.page3 label:nth-child(16), 
+	#slide16.page3:checked ~ #controls.page3 label:nth-child(1) {
+		margin: 0 -6em;
+	}
+	#slide1.page4:checked ~ #controls.page4 label:nth-child(2), 
+	#slide2.page4:checked ~ #controls.page4 label:nth-child(3), 
+	#slide3.page4:checked ~ #controls.page4 label:nth-child(4), 
+	#slide4.page4:checked ~ #controls.page4 label:nth-child(5), 
+	#slide5.page4:checked ~ #controls.page4 label:nth-child(6), 
+	#slide6.page4:checked ~ #controls.page4 label:nth-child(7), 
+	#slide7.page4:checked ~ #controls.page4 label:nth-child(8), 
+	#slide8.page4:checked ~ #controls.page4 label:nth-child(9), 
+	#slide9.page4:checked ~ #controls.page4 label:nth-child(10), 
+	#slide10.page4:checked ~ #controls.page4 label:nth-child(11), 
+	#slide11.page4:checked ~ #controls.page4 label:nth-child(12), 
+	#slide12.page4:checked ~ #controls.page4 label:nth-child(13), 
+	#slide13.page4:checked ~ #controls.page4 label:nth-child(14), 
+	#slide14.page4:checked ~ #controls.page4 label:nth-child(15), 
+	#slide15.page4:checked ~ #controls.page4 label:nth-child(16), 
+	#slide16.page4:checked ~ #controls.page4 label:nth-child(17), 
+	#slide17.page4:checked ~ #controls.page4 label:nth-child(1) {
+		margin: 0 -6em;
+	}
+	#slide1.page5:checked ~ #controls.page5 label:nth-child(2), 
+	#slide2.page5:checked ~ #controls.page5 label:nth-child(3), 
+	#slide3.page5:checked ~ #controls.page5 label:nth-child(4), 
+	#slide4.page5:checked ~ #controls.page5 label:nth-child(5), 
+	#slide5.page5:checked ~ #controls.page5 label:nth-child(6),
+	#slide6.page5:checked ~ #controls.page5 label:nth-child(7),
+	#slide7.page5:checked ~ #controls.page5 label:nth-child(1){
+		margin: 0 -6em;
+	}
+/*	Previous*/
+	#slide1.page1:checked ~ #controls.page1 label:nth-child(22), 
+	#slide2.page1:checked ~ #controls.page1 label:nth-child(1), 
+	#slide3.page1:checked ~ #controls.page1 label:nth-child(2), 
+	#slide4.page1:checked ~ #controls.page1 label:nth-child(3), 
+	#slide5.page1:checked ~ #controls.page1 label:nth-child(4), 
+	#slide6.page1:checked ~ #controls.page1 label:nth-child(5), 
+	#slide7.page1:checked ~ #controls.page1 label:nth-child(6), 
+	#slide8.page1:checked ~ #controls.page1 label:nth-child(7), 
+	#slide9.page1:checked ~ #controls.page1 label:nth-child(8), 
+	#slide10.page1:checked ~ #controls.page1 label:nth-child(9), 
+	#slide11.page1:checked ~ #controls.page1 label:nth-child(10), 
+	#slide12.page1:checked ~ #controls.page1 label:nth-child(11), 
+	#slide13.page1:checked ~ #controls.page1 label:nth-child(12), 
+	#slide14.page1:checked ~ #controls.page1 label:nth-child(13), 
+	#slide15.page1:checked ~ #controls.page1 label:nth-child(14), 
+	#slide16.page1:checked ~ #controls.page1 label:nth-child(15), 
+	#slide17.page1:checked ~ #controls.page1 label:nth-child(16), 
+	#slide18.page1:checked ~ #controls.page1 label:nth-child(17), 
+	#slide19.page1:checked ~ #controls.page1 label:nth-child(18), 
+	#slide20.page1:checked ~ #controls.page1 label:nth-child(19), 
+	#slide21.page1:checked ~ #controls.page1 label:nth-child(20), 
+	#slide22.page1:checked ~ #controls.page1 label:nth-child(21) {
+		margin: 0 6em;
+	}
+	#slide1.page2:checked ~ #controls.page2 label:nth-child(15), 
+	#slide2.page2:checked ~ #controls.page2 label:nth-child(1), 
+	#slide3.page2:checked ~ #controls.page2 label:nth-child(2), 
+	#slide4.page2:checked ~ #controls.page2 label:nth-child(3), 
+	#slide5.page2:checked ~ #controls.page2 label:nth-child(4), 
+	#slide6.page2:checked ~ #controls.page2 label:nth-child(5), 
+	#slide7.page2:checked ~ #controls.page2 label:nth-child(6), 
+	#slide8.page2:checked ~ #controls.page2 label:nth-child(7), 
+	#slide9.page2:checked ~ #controls.page2 label:nth-child(8), 
+	#slide10.page2:checked ~ #controls.page2 label:nth-child(9), 
+	#slide11.page2:checked ~ #controls.page2 label:nth-child(10), 
+	#slide12.page2:checked ~ #controls.page2 label:nth-child(11), 
+	#slide13.page2:checked ~ #controls.page2 label:nth-child(12), 
+	#slide14.page2:checked ~ #controls.page2 label:nth-child(13), 
+	#slide15.page2:checked ~ #controls.page2 label:nth-child(14) {
+		margin: 0 6em;
+	}
+	#slide1.page3:checked ~ #controls.page3 label:nth-child(16), 
+	#slide2.page3:checked ~ #controls.page3 label:nth-child(1), 
+	#slide3.page3:checked ~ #controls.page3 label:nth-child(2), 
+	#slide4.page3:checked ~ #controls.page3 label:nth-child(3), 
+	#slide5.page3:checked ~ #controls.page3 label:nth-child(4), 
+	#slide6.page3:checked ~ #controls.page3 label:nth-child(5), 
+	#slide7.page3:checked ~ #controls.page3 label:nth-child(6), 
+	#slide8.page3:checked ~ #controls.page3 label:nth-child(7), 
+	#slide9.page3:checked ~ #controls.page3 label:nth-child(8), 
+	#slide10.page3:checked ~ #controls.page3 label:nth-child(9), 
+	#slide11.page3:checked ~ #controls.page3 label:nth-child(10), 
+	#slide12.page3:checked ~ #controls.page3 label:nth-child(11), 
+	#slide13.page3:checked ~ #controls.page3 label:nth-child(12), 
+	#slide14.page3:checked ~ #controls.page3 label:nth-child(13), 
+	#slide15.page3:checked ~ #controls.page3 label:nth-child(14), 
+	#slide16.page3:checked ~ #controls.page3 label:nth-child(15) {
+		margin: 0 6em;
+	}
+	#slide1.page4:checked ~ #controls.page4 label:nth-child(17), 
+	#slide2.page4:checked ~ #controls.page4 label:nth-child(1), 
+	#slide3.page4:checked ~ #controls.page4 label:nth-child(2), 
+	#slide4.page4:checked ~ #controls.page4 label:nth-child(3), 
+	#slide5.page4:checked ~ #controls.page4 label:nth-child(4), 
+	#slide6.page4:checked ~ #controls.page4 label:nth-child(5), 
+	#slide7.page4:checked ~ #controls.page4 label:nth-child(6), 
+	#slide8.page4:checked ~ #controls.page4 label:nth-child(7), 
+	#slide9.page4:checked ~ #controls.page4 label:nth-child(8), 
+	#slide10.page4:checked ~ #controls.page4 label:nth-child(9), 
+	#slide11.page4:checked ~ #controls.page4 label:nth-child(10), 
+	#slide12.page4:checked ~ #controls.page4 label:nth-child(11), 
+	#slide13.page4:checked ~ #controls.page4 label:nth-child(12), 
+	#slide14.page4:checked ~ #controls.page4 label:nth-child(13), 
+	#slide15.page4:checked ~ #controls.page4 label:nth-child(14), 
+	#slide16.page4:checked ~ #controls.page4 label:nth-child(15), 
+	#slide17.page4:checked ~ #controls.page4 label:nth-child(16) {
+		margin: 0 6em;
+	}
+	#slide1.page5:checked ~ #controls.page5 label:nth-child(7),
+	#slide2.page5:checked ~ #controls.page5 label:nth-child(1),
+	#slide3.page5:checked ~ #controls.page5 label:nth-child(2),
+	#slide4.page5:checked ~ #controls.page5 label:nth-child(3),
+	#slide5.page5:checked ~ #controls.page5 label:nth-child(4),
+	#slide6.page5:checked ~ #controls.page5 label:nth-child(5),
+	#slide7.page5:checked ~ #controls.page5 label:nth-child(6) {
 		margin: 0 6em;
 	}
 
@@ -379,24 +838,181 @@ input {
 		/*margin: 22% 0 0;*/
 		display: none;
 	}
-
-	#slide1:checked ~ #controls label:nth-child(2), 
-	#slide2:checked ~ #controls label:nth-child(3), 
-	#slide3:checked ~ #controls label:nth-child(4), 
-	#slide4:checked ~ #controls label:nth-child(5), 
-	#slide5:checked ~ #controls label:nth-child(6),
-	#slide6:checked ~ #controls label:nth-child(7),
-	#slide7:checked ~ #controls label:nth-child(1) {
+/*  Next*/
+	#slide1.page1:checked ~ #controls.page1 label:nth-child(2), 
+	#slide2.page1:checked ~ #controls.page1 label:nth-child(3), 
+	#slide3.page1:checked ~ #controls.page1 label:nth-child(4), 
+	#slide4.page1:checked ~ #controls.page1 label:nth-child(5), 
+	#slide5.page1:checked ~ #controls.page1 label:nth-child(6), 
+	#slide6.page1:checked ~ #controls.page1 label:nth-child(7), 
+	#slide7.page1:checked ~ #controls.page1 label:nth-child(8), 
+	#slide8.page1:checked ~ #controls.page1 label:nth-child(9), 
+	#slide9.page1:checked ~ #controls.page1 label:nth-child(10), 
+	#slide10.page1:checked ~ #controls.page1 label:nth-child(11), 
+	#slide11.page1:checked ~ #controls.page1 label:nth-child(12), 
+	#slide12.page1:checked ~ #controls.page1 label:nth-child(13), 
+	#slide13.page1:checked ~ #controls.page1 label:nth-child(14), 
+	#slide14.page1:checked ~ #controls.page1 label:nth-child(15), 
+	#slide15.page1:checked ~ #controls.page1 label:nth-child(16), 
+	#slide16.page1:checked ~ #controls.page1 label:nth-child(17), 
+	#slide17.page1:checked ~ #controls.page1 label:nth-child(18), 
+	#slide18.page1:checked ~ #controls.page1 label:nth-child(19), 
+	#slide19.page1:checked ~ #controls.page1 label:nth-child(20), 
+	#slide20.page1:checked ~ #controls.page1 label:nth-child(21), 
+	#slide21.page1:checked ~ #controls.page1 label:nth-child(22), 
+	#slide22.page1:checked ~ #controls.page1 label:nth-child(1) {
 		margin: 0 -12em;
 	}
-
-	#slide1:checked ~ #controls label:nth-child(7),
-	#slide2:checked ~ #controls label:nth-child(1),
-	#slide3:checked ~ #controls label:nth-child(2),
-	#slide4:checked ~ #controls label:nth-child(3),
-	#slide5:checked ~ #controls label:nth-child(4),
-	#slide6:checked ~ #controls label:nth-child(5),
-	#slide7:checked ~ #controls label:nth-child(6) {
+	#slide1.page2:checked ~ #controls.page2 label:nth-child(2), 
+	#slide2.page2:checked ~ #controls.page2 label:nth-child(3), 
+	#slide3.page2:checked ~ #controls.page2 label:nth-child(4), 
+	#slide4.page2:checked ~ #controls.page2 label:nth-child(5), 
+	#slide5.page2:checked ~ #controls.page2 label:nth-child(6), 
+	#slide6.page2:checked ~ #controls.page2 label:nth-child(7), 
+	#slide7.page2:checked ~ #controls.page2 label:nth-child(8), 
+	#slide8.page2:checked ~ #controls.page2 label:nth-child(9), 
+	#slide9.page2:checked ~ #controls.page2 label:nth-child(10), 
+	#slide10.page2:checked ~ #controls.page2 label:nth-child(11), 
+	#slide11.page2:checked ~ #controls.page2 label:nth-child(12), 
+	#slide12.page2:checked ~ #controls.page2 label:nth-child(13), 
+	#slide13.page2:checked ~ #controls.page2 label:nth-child(14), 
+	#slide14.page2:checked ~ #controls.page2 label:nth-child(15), 
+	#slide15.page2:checked ~ #controls.page2 label:nth-child(1) {
+		margin: 0 -12em;
+	}
+	#slide1.page3:checked ~ #controls.page3 label:nth-child(2), 
+	#slide2.page3:checked ~ #controls.page3 label:nth-child(3), 
+	#slide3.page3:checked ~ #controls.page3 label:nth-child(4), 
+	#slide4.page3:checked ~ #controls.page3 label:nth-child(5), 
+	#slide5.page3:checked ~ #controls.page3 label:nth-child(6), 
+	#slide6.page3:checked ~ #controls.page3 label:nth-child(7), 
+	#slide7.page3:checked ~ #controls.page3 label:nth-child(8), 
+	#slide8.page3:checked ~ #controls.page3 label:nth-child(9), 
+	#slide9.page3:checked ~ #controls.page3 label:nth-child(10), 
+	#slide10.page3:checked ~ #controls.page3 label:nth-child(11), 
+	#slide11.page3:checked ~ #controls.page3 label:nth-child(12), 
+	#slide12.page3:checked ~ #controls.page3 label:nth-child(13), 
+	#slide13.page3:checked ~ #controls.page3 label:nth-child(14), 
+	#slide14.page3:checked ~ #controls.page3 label:nth-child(15), 
+	#slide15.page3:checked ~ #controls.page3 label:nth-child(16), 
+	#slide16.page3:checked ~ #controls.page3 label:nth-child(1) {
+		margin: 0 -12em;
+	}
+	#slide1.page4:checked ~ #controls.page4 label:nth-child(2), 
+	#slide2.page4:checked ~ #controls.page4 label:nth-child(3), 
+	#slide3.page4:checked ~ #controls.page4 label:nth-child(4), 
+	#slide4.page4:checked ~ #controls.page4 label:nth-child(5), 
+	#slide5.page4:checked ~ #controls.page4 label:nth-child(6), 
+	#slide6.page4:checked ~ #controls.page4 label:nth-child(7), 
+	#slide7.page4:checked ~ #controls.page4 label:nth-child(8), 
+	#slide8.page4:checked ~ #controls.page4 label:nth-child(9), 
+	#slide9.page4:checked ~ #controls.page4 label:nth-child(10), 
+	#slide10.page4:checked ~ #controls.page4 label:nth-child(11), 
+	#slide11.page4:checked ~ #controls.page4 label:nth-child(12), 
+	#slide12.page4:checked ~ #controls.page4 label:nth-child(13), 
+	#slide13.page4:checked ~ #controls.page4 label:nth-child(14), 
+	#slide14.page4:checked ~ #controls.page4 label:nth-child(15), 
+	#slide15.page4:checked ~ #controls.page4 label:nth-child(16), 
+	#slide16.page4:checked ~ #controls.page4 label:nth-child(17), 
+	#slide17.page4:checked ~ #controls.page4 label:nth-child(1) {
+		margin: 0 -12em;
+	}
+	#slide1.page5:checked ~ #controls.page5 label:nth-child(2), 
+	#slide2.page5:checked ~ #controls.page5 label:nth-child(3), 
+	#slide3.page5:checked ~ #controls.page5 label:nth-child(4), 
+	#slide4.page5:checked ~ #controls.page5 label:nth-child(5), 
+	#slide5.page5:checked ~ #controls.page5 label:nth-child(6),
+	#slide6.page5:checked ~ #controls.page5 label:nth-child(7),
+	#slide7.page5:checked ~ #controls.page5 label:nth-child(1) {
+		margin: 0 -12em;
+	}
+/*Previous  */
+	#slide1.page1:checked ~ #controls.page1 label:nth-child(22), 
+	#slide2.page1:checked ~ #controls.page1 label:nth-child(1), 
+	#slide3.page1:checked ~ #controls.page1 label:nth-child(2), 
+	#slide4.page1:checked ~ #controls.page1 label:nth-child(3), 
+	#slide5.page1:checked ~ #controls.page1 label:nth-child(4), 
+	#slide6.page1:checked ~ #controls.page1 label:nth-child(5), 
+	#slide7.page1:checked ~ #controls.page1 label:nth-child(6), 
+	#slide8.page1:checked ~ #controls.page1 label:nth-child(7), 
+	#slide9.page1:checked ~ #controls.page1 label:nth-child(8), 
+	#slide10.page1:checked ~ #controls.page1 label:nth-child(9), 
+	#slide11.page1:checked ~ #controls.page1 label:nth-child(10), 
+	#slide12.page1:checked ~ #controls.page1 label:nth-child(11), 
+	#slide13.page1:checked ~ #controls.page1 label:nth-child(12), 
+	#slide14.page1:checked ~ #controls.page1 label:nth-child(13), 
+	#slide15.page1:checked ~ #controls.page1 label:nth-child(14), 
+	#slide16.page1:checked ~ #controls.page1 label:nth-child(15), 
+	#slide17.page1:checked ~ #controls.page1 label:nth-child(16), 
+	#slide18.page1:checked ~ #controls.page1 label:nth-child(17), 
+	#slide19.page1:checked ~ #controls.page1 label:nth-child(18), 
+	#slide20.page1:checked ~ #controls.page1 label:nth-child(19), 
+	#slide21.page1:checked ~ #controls.page1 label:nth-child(20), 
+	#slide22.page1:checked ~ #controls.page1 label:nth-child(21) {
+		margin: 0 9em;
+	}
+	
+	#slide1.page2:checked ~ #controls.page2 label:nth-child(15), 
+	#slide2.page2:checked ~ #controls.page2 label:nth-child(1), 
+	#slide3.page2:checked ~ #controls.page2 label:nth-child(2), 
+	#slide4.page2:checked ~ #controls.page2 label:nth-child(3), 
+	#slide5.page2:checked ~ #controls.page2 label:nth-child(4), 
+	#slide6.page2:checked ~ #controls.page2 label:nth-child(5), 
+	#slide7.page2:checked ~ #controls.page2 label:nth-child(6), 
+	#slide8.page2:checked ~ #controls.page2 label:nth-child(7), 
+	#slide9.page2:checked ~ #controls.page2 label:nth-child(8), 
+	#slide10.page2:checked ~ #controls.page2 label:nth-child(9), 
+	#slide11.page2:checked ~ #controls.page2 label:nth-child(10), 
+	#slide12.page2:checked ~ #controls.page2 label:nth-child(11), 
+	#slide13.page2:checked ~ #controls.page2 label:nth-child(12), 
+	#slide14.page2:checked ~ #controls.page2 label:nth-child(13), 
+	#slide15.page2:checked ~ #controls.page2 label:nth-child(14) {
+		margin: 0 9em;
+	}
+	#slide1.page3:checked ~ #controls.page3 label:nth-child(16), 
+	#slide2.page3:checked ~ #controls.page3 label:nth-child(1), 
+	#slide3.page3:checked ~ #controls.page3 label:nth-child(2), 
+	#slide4.page3:checked ~ #controls.page3 label:nth-child(3), 
+	#slide5.page3:checked ~ #controls.page3 label:nth-child(4), 
+	#slide6.page3:checked ~ #controls.page3 label:nth-child(5), 
+	#slide7.page3:checked ~ #controls.page3 label:nth-child(6), 
+	#slide8.page3:checked ~ #controls.page3 label:nth-child(7), 
+	#slide9.page3:checked ~ #controls.page3 label:nth-child(8), 
+	#slide10.page3:checked ~ #controls.page3 label:nth-child(9), 
+	#slide11.page3:checked ~ #controls.page3 label:nth-child(10), 
+	#slide12.page3:checked ~ #controls.page3 label:nth-child(11), 
+	#slide13.page3:checked ~ #controls.page3 label:nth-child(12), 
+	#slide14.page3:checked ~ #controls.page3 label:nth-child(13), 
+	#slide15.page3:checked ~ #controls.page3 label:nth-child(14), 
+	#slide16.page3:checked ~ #controls.page3 label:nth-child(15) {
+		margin: 0 9em;
+	}
+	#slide1.page4:checked ~ #controls.page4 label:nth-child(17), 
+	#slide2.page4:checked ~ #controls.page4 label:nth-child(1), 
+	#slide3.page4:checked ~ #controls.page4 label:nth-child(2), 
+	#slide4.page4:checked ~ #controls.page4 label:nth-child(3), 
+	#slide5.page4:checked ~ #controls.page4 label:nth-child(4), 
+	#slide6.page4:checked ~ #controls.page4 label:nth-child(5), 
+	#slide7.page4:checked ~ #controls.page4 label:nth-child(6), 
+	#slide8.page4:checked ~ #controls.page4 label:nth-child(7), 
+	#slide9.page4:checked ~ #controls.page4 label:nth-child(8), 
+	#slide10.page4:checked ~ #controls.page4 label:nth-child(9), 
+	#slide11.page4:checked ~ #controls.page4 label:nth-child(10), 
+	#slide12.page4:checked ~ #controls.page4 label:nth-child(11), 
+	#slide13.page4:checked ~ #controls.page4 label:nth-child(12), 
+	#slide14.page4:checked ~ #controls.page4 label:nth-child(13), 
+	#slide15.page4:checked ~ #controls.page4 label:nth-child(14), 
+	#slide16.page4:checked ~ #controls.page4 label:nth-child(15), 
+	#slide17.page4:checked ~ #controls.page4 label:nth-child(16) {
+		margin: 0 9em;
+	}
+	#slide1.page5:checked ~ #controls.page5 label:nth-child(7),
+	#slide2.page5:checked ~ #controls.page5 label:nth-child(1),
+	#slide3.page5:checked ~ #controls.page5 label:nth-child(2),
+	#slide4.page5:checked ~ #controls.page5 label:nth-child(3),
+	#slide5.page5:checked ~ #controls.page5 label:nth-child(4),
+	#slide6.page5:checked ~ #controls.page5 label:nth-child(5),
+	#slide7.page5:checked ~ #controls.page5 label:nth-child(6){
 		margin: 0 9em;
 	}
 }
@@ -463,24 +1079,182 @@ input {
 		-o-transform: scale(0.6);
 		-ms-transform: scale(0.6);
 		transform: scale(0.6);
+	} 
+/*  Next*/
+	#slide1.page1:checked ~ #controls.page1 label:nth-child(2), 
+	#slide2.page1:checked ~ #controls.page1 label:nth-child(3), 
+	#slide3.page1:checked ~ #controls.page1 label:nth-child(4), 
+	#slide4.page1:checked ~ #controls.page1 label:nth-child(5), 
+	#slide5.page1:checked ~ #controls.page1 label:nth-child(6), 
+	#slide6.page1:checked ~ #controls.page1 label:nth-child(7), 
+	#slide7.page1:checked ~ #controls.page1 label:nth-child(8), 
+	#slide8.page1:checked ~ #controls.page1 label:nth-child(9), 
+	#slide9.page1:checked ~ #controls.page1 label:nth-child(10), 
+	#slide10.page1:checked ~ #controls.page1 label:nth-child(11), 
+	#slide11.page1:checked ~ #controls.page1 label:nth-child(12), 
+	#slide12.page1:checked ~ #controls.page1 label:nth-child(13), 
+	#slide13.page1:checked ~ #controls.page1 label:nth-child(14), 
+	#slide14.page1:checked ~ #controls.page1 label:nth-child(15), 
+	#slide15.page1:checked ~ #controls.page1 label:nth-child(16), 
+	#slide16.page1:checked ~ #controls.page1 label:nth-child(17), 
+	#slide17.page1:checked ~ #controls.page1 label:nth-child(18), 
+	#slide18.page1:checked ~ #controls.page1 label:nth-child(19), 
+	#slide19.page1:checked ~ #controls.page1 label:nth-child(20), 
+	#slide20.page1:checked ~ #controls.page1 label:nth-child(21), 
+	#slide21.page1:checked ~ #controls.page1 label:nth-child(22), 
+	#slide22.page1:checked ~ #controls.page1 label:nth-child(1) {
+		margin: 0 -18em;
 	}
-	#slide1:checked ~ #controls label:nth-child(2), 
-	#slide2:checked ~ #controls label:nth-child(3), 
-	#slide3:checked ~ #controls label:nth-child(4), 
-	#slide4:checked ~ #controls label:nth-child(5), 
-	#slide5:checked ~ #controls label:nth-child(6),
-	#slide6:checked ~ #controls label:nth-child(7),
-	#slide7:checked ~ #controls label:nth-child(1) {
+	#slide1.page2:checked ~ #controls.page2 label:nth-child(2), 
+	#slide2.page2:checked ~ #controls.page2 label:nth-child(3), 
+	#slide3.page2:checked ~ #controls.page2 label:nth-child(4), 
+	#slide4.page2:checked ~ #controls.page2 label:nth-child(5), 
+	#slide5.page2:checked ~ #controls.page2 label:nth-child(6), 
+	#slide6.page2:checked ~ #controls.page2 label:nth-child(7), 
+	#slide7.page2:checked ~ #controls.page2 label:nth-child(8), 
+	#slide8.page2:checked ~ #controls.page2 label:nth-child(9), 
+	#slide9.page2:checked ~ #controls.page2 label:nth-child(10), 
+	#slide10.page2:checked ~ #controls.page2 label:nth-child(11), 
+	#slide11.page2:checked ~ #controls.page2 label:nth-child(12), 
+	#slide12.page2:checked ~ #controls.page2 label:nth-child(13), 
+	#slide13.page2:checked ~ #controls.page2 label:nth-child(14), 
+	#slide14.page2:checked ~ #controls.page2 label:nth-child(15), 
+	#slide15.page2:checked ~ #controls.page2 label:nth-child(1) {
+	margin: 0 -18em;
+	}
+	#slide1.page3:checked ~ #controls.page3 label:nth-child(2), 
+	#slide2.page3:checked ~ #controls.page3 label:nth-child(3), 
+	#slide3.page3:checked ~ #controls.page3 label:nth-child(4), 
+	#slide4.page3:checked ~ #controls.page3 label:nth-child(5), 
+	#slide5.page3:checked ~ #controls.page3 label:nth-child(6), 
+	#slide6.page3:checked ~ #controls.page3 label:nth-child(7), 
+	#slide7.page3:checked ~ #controls.page3 label:nth-child(8), 
+	#slide8.page3:checked ~ #controls.page3 label:nth-child(9), 
+	#slide9.page3:checked ~ #controls.page3 label:nth-child(10), 
+	#slide10.page3:checked ~ #controls.page3 label:nth-child(11), 
+	#slide11.page3:checked ~ #controls.page3 label:nth-child(12), 
+	#slide12.page3:checked ~ #controls.page3 label:nth-child(13), 
+	#slide13.page3:checked ~ #controls.page3 label:nth-child(14), 
+	#slide14.page3:checked ~ #controls.page3 label:nth-child(15), 
+	#slide15.page3:checked ~ #controls.page3 label:nth-child(16), 
+	#slide16.page3:checked ~ #controls.page3 label:nth-child(1) {
+		margin: 0 -18em;
+	}
+	#slide1.page4:checked ~ #controls.page4 label:nth-child(2), 
+	#slide2.page4:checked ~ #controls.page4 label:nth-child(3), 
+	#slide3.page4:checked ~ #controls.page4 label:nth-child(4), 
+	#slide4.page4:checked ~ #controls.page4 label:nth-child(5), 
+	#slide5.page4:checked ~ #controls.page4 label:nth-child(6), 
+	#slide6.page4:checked ~ #controls.page4 label:nth-child(7), 
+	#slide7.page4:checked ~ #controls.page4 label:nth-child(8), 
+	#slide8.page4:checked ~ #controls.page4 label:nth-child(9), 
+	#slide9.page4:checked ~ #controls.page4 label:nth-child(10), 
+	#slide10.page4:checked ~ #controls.page4 label:nth-child(11), 
+	#slide11.page4:checked ~ #controls.page4 label:nth-child(12), 
+	#slide12.page4:checked ~ #controls.page4 label:nth-child(13), 
+	#slide13.page4:checked ~ #controls.page4 label:nth-child(14), 
+	#slide14.page4:checked ~ #controls.page4 label:nth-child(15), 
+	#slide15.page4:checked ~ #controls.page4 label:nth-child(16), 
+	#slide16.page4:checked ~ #controls.page4 label:nth-child(17), 
+	#slide17.page4:checked ~ #controls.page4 label:nth-child(1) {
+		margin: 0 -18em;
+	}
+	#slide1.page5:checked ~ #controls.page5 label:nth-child(2), 
+	#slide2.page5:checked ~ #controls.page5 label:nth-child(3), 
+	#slide3.page5:checked ~ #controls.page5 label:nth-child(4), 
+	#slide4.page5:checked ~ #controls.page5 label:nth-child(5), 
+	#slide5.page5:checked ~ #controls.page5 label:nth-child(6),
+	#slide6.page5:checked ~ #controls.page5 label:nth-child(7),
+	#slide7.page5:checked ~ #controls.page5 label:nth-child(1) {
 		margin: 0 -18em;
 	}
 
-	#slide1:checked ~ #controls label:nth-child(7),
-	#slide2:checked ~ #controls label:nth-child(1),
-	#slide3:checked ~ #controls label:nth-child(2),
-	#slide4:checked ~ #controls label:nth-child(3),
-	#slide5:checked ~ #controls label:nth-child(4),
-	#slide6:checked ~ #controls label:nth-child(5),
-	#slide7:checked ~ #controls label:nth-child(6) {
+/*  Previous*/
+	#slide1.page1:checked ~ #controls.page1 label:nth-child(22), 
+	#slide2.page1:checked ~ #controls.page1 label:nth-child(1), 
+	#slide3.page1:checked ~ #controls.page1 label:nth-child(2), 
+	#slide4.page1:checked ~ #controls.page1 label:nth-child(3), 
+	#slide5.page1:checked ~ #controls.page1 label:nth-child(4), 
+	#slide6.page1:checked ~ #controls.page1 label:nth-child(5), 
+	#slide7.page1:checked ~ #controls.page1 label:nth-child(6), 
+	#slide8.page1:checked ~ #controls.page1 label:nth-child(7), 
+	#slide9.page1:checked ~ #controls.page1 label:nth-child(8), 
+	#slide10.page1:checked ~ #controls.page1 label:nth-child(9), 
+	#slide11.page1:checked ~ #controls.page1 label:nth-child(10), 
+	#slide12.page1:checked ~ #controls.page1 label:nth-child(11), 
+	#slide13.page1:checked ~ #controls.page1 label:nth-child(12), 
+	#slide14.page1:checked ~ #controls.page1 label:nth-child(13), 
+	#slide15.page1:checked ~ #controls.page1 label:nth-child(14), 
+	#slide16.page1:checked ~ #controls.page1 label:nth-child(15), 
+	#slide17.page1:checked ~ #controls.page1 label:nth-child(16), 
+	#slide18.page1:checked ~ #controls.page1 label:nth-child(17), 
+	#slide19.page1:checked ~ #controls.page1 label:nth-child(18), 
+	#slide20.page1:checked ~ #controls.page1 label:nth-child(19), 
+	#slide21.page1:checked ~ #controls.page1 label:nth-child(20), 
+	#slide22.page1:checked ~ #controls.page1 label:nth-child(21) {
+		margin: 0 2em;
+	}
+	#slide1.page2:checked ~ #controls.page2 label:nth-child(15), 
+	#slide2.page2:checked ~ #controls.page2 label:nth-child(1), 
+	#slide3.page2:checked ~ #controls.page2 label:nth-child(2), 
+	#slide4.page2:checked ~ #controls.page2 label:nth-child(3), 
+	#slide5.page2:checked ~ #controls.page2 label:nth-child(4), 
+	#slide6.page2:checked ~ #controls.page2 label:nth-child(5), 
+	#slide7.page2:checked ~ #controls.page2 label:nth-child(6), 
+	#slide8.page2:checked ~ #controls.page2 label:nth-child(7), 
+	#slide9.page2:checked ~ #controls.page2 label:nth-child(8), 
+	#slide10.page2:checked ~ #controls.page2 label:nth-child(9), 
+	#slide11.page2:checked ~ #controls.page2 label:nth-child(10), 
+	#slide12.page2:checked ~ #controls.page2 label:nth-child(11), 
+	#slide13.page2:checked ~ #controls.page2 label:nth-child(12), 
+	#slide14.page2:checked ~ #controls.page2 label:nth-child(13), 
+	#slide15.page2:checked ~ #controls.page2 label:nth-child(14) {
+		margin: 0 2em;
+	}
+	#slide1.page3:checked ~ #controls.page3 label:nth-child(16), 
+	#slide2.page3:checked ~ #controls.page3 label:nth-child(1), 
+	#slide3.page3:checked ~ #controls.page3 label:nth-child(2), 
+	#slide4.page3:checked ~ #controls.page3 label:nth-child(3), 
+	#slide5.page3:checked ~ #controls.page3 label:nth-child(4), 
+	#slide6.page3:checked ~ #controls.page3 label:nth-child(5), 
+	#slide7.page3:checked ~ #controls.page3 label:nth-child(6), 
+	#slide8.page3:checked ~ #controls.page3 label:nth-child(7), 
+	#slide9.page3:checked ~ #controls.page3 label:nth-child(8), 
+	#slide10.page3:checked ~ #controls.page3 label:nth-child(9), 
+	#slide11.page3:checked ~ #controls.page3 label:nth-child(10), 
+	#slide12.page3:checked ~ #controls.page3 label:nth-child(11), 
+	#slide13.page3:checked ~ #controls.page3 label:nth-child(12), 
+	#slide14.page3:checked ~ #controls.page3 label:nth-child(13), 
+	#slide15.page3:checked ~ #controls.page3 label:nth-child(14), 
+	#slide16.page3:checked ~ #controls.page3 label:nth-child(15) {
+		margin: 0 2em;
+	}
+	#slide1.page4:checked ~ #controls.page4 label:nth-child(17), 
+	#slide2.page4:checked ~ #controls.page4 label:nth-child(1), 
+	#slide3.page4:checked ~ #controls.page4 label:nth-child(2), 
+	#slide4.page4:checked ~ #controls.page4 label:nth-child(3), 
+	#slide5.page4:checked ~ #controls.page4 label:nth-child(4), 
+	#slide6.page4:checked ~ #controls.page4 label:nth-child(5), 
+	#slide7.page4:checked ~ #controls.page4 label:nth-child(6), 
+	#slide8.page4:checked ~ #controls.page4 label:nth-child(7), 
+	#slide9.page4:checked ~ #controls.page4 label:nth-child(8), 
+	#slide10.page4:checked ~ #controls.page4 label:nth-child(9), 
+	#slide11.page4:checked ~ #controls.page4 label:nth-child(10), 
+	#slide12.page4:checked ~ #controls.page4 label:nth-child(11), 
+	#slide13.page4:checked ~ #controls.page4 label:nth-child(12), 
+	#slide14.page4:checked ~ #controls.page4 label:nth-child(13), 
+	#slide15.page4:checked ~ #controls.page4 label:nth-child(14), 
+	#slide16.page4:checked ~ #controls.page4 label:nth-child(15), 
+	#slide17.page4:checked ~ #controls.page4 label:nth-child(16) {
+		margin: 0 2em;
+	}
+	#slide1.page5:checked ~ #controls.page5 label:nth-child(7),
+	#slide2.page5:checked ~ #controls.page5 label:nth-child(1),
+	#slide3.page5:checked ~ #controls.page5 label:nth-child(2),
+	#slide4.page5:checked ~ #controls.page5 label:nth-child(3),
+	#slide5.page5:checked ~ #controls.page5 label:nth-child(4),
+	#slide6.page5:checked ~ #controls.page5 label:nth-child(5),
+	#slide7.page5:checked ~ #controls.page5 label:nth-child(6) {
 		margin: 0 2em;
 	}
 }
