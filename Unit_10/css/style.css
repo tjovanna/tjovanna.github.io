@@ -223,23 +223,22 @@ input {
 	float: left;
 }
 #slides.page1 article {
-	width: 4.54%;
+	width: 4.545%;
 }
 #slides.page2 article {
-	width: 6.66%;
+	width: 6.666%;
 }
 #slides.page3 article {
 	width: 6.25%;
 }
 #slides.page4 article {
-	width: 5.88%;
+	width: 5.882%;
 }
 #slides.page5 article {
 	width: 14.28%;
 }
 /* Slider Styling 
 /* Control Setup */
-
 #controls {
 	margin: -10em auto;
 	width: 100%;
