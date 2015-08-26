@@ -263,6 +263,15 @@ input {
 	float: left;
 	width: 100%;
 }
+#active.page2 {
+	margin: 33% 0 0;
+}
+#active.page4 {
+	margin: 17% 0 0;
+}
+#active.page5 {
+	margin: 15% 0 0;
+}
 
 #active label {
 	-webkit-border-radius: 5px;
@@ -788,7 +797,7 @@ input {
 		padding: 1em;
 	}
 	nav {
-		margin: -4em auto;
+		margin: 1em auto;
 	}
 	h3 {
 		display: none;
@@ -800,7 +809,7 @@ input {
 		width: 46%;
 	}
 	#slider #controls {
-		margin: -8em auto;
+		margin: 3em auto;
 		width: 70%;
 		height: 50px;
 	}
@@ -1004,7 +1013,7 @@ input {
 }
 @media only screen and (max-width: 520px) {
 	h1 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 	h2 {
 		font-size: 0.75em;
@@ -1014,7 +1023,7 @@ input {
 		display: none;
 	}
 	nav {
-		margin: -5em auto;
+		margin: 0em auto;
 	}
 	li {
 		display: block;
@@ -1032,7 +1041,7 @@ input {
 		height: 10em;
 	}
 	#slider #controls {
-		margin: -13em auto;
+		margin: 4em auto;
 		width: 50%;
 		height: 50px;
 	}
