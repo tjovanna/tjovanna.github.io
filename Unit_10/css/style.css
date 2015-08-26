@@ -24,7 +24,7 @@ h2{
 h3 {
 	font-size: 1.5em;
 	font-weight: 400;
-	margin: 2em 0  1em 4em;
+	margin: 1em 0  1em 4em;
 	padding: 1em;
 }
 nav {
@@ -87,9 +87,6 @@ a:hover{
 	font-weight: 700;
 	text-decoration: none;
 	color: #DEC3BE;
-}
-.empty {
-	float: left;
 }
 #about {
 	width: 70%;
