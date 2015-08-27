@@ -134,7 +134,6 @@ input {
 #slide21.page1:checked ~ #slides.page1 .inner { margin-left:-2000%; }
 #slide22.page1:checked ~ #slides.page1 .inner { margin-left:-2100%; }
 
-
 #slide1.page2:checked ~ #slides.page2 .inner { margin-left:0; }
 #slide2.page2:checked ~ #slides.page2 .inner { margin-left:-100%; }
 #slide3.page2:checked ~ #slides.page2 .inner { margin-left:-200%; }
