@@ -92,14 +92,14 @@ a:hover{
 	width: 70%;
 	margin: 4em auto 10em;
 }
-#about>h3{
-	margin: 1em 0 1em 0;
+#about>h3 {
+	margin: 5em 0 1em -1em;
 }
 #about>a{
 	display: block;
 	font-size: 1em;
 	font-family: 'Antic Slab' serif;
-	padding: 1em 0;
+	padding: 2em 0;
 }
 .clearfix:after { 
 	content: "."; 
