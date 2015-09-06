@@ -593,7 +593,7 @@ input {
 		display: none;
 	}
 	.gallery{
-		margin: 20em auto;
+		margin: 25em auto;
 	}
 	.gallery-img {
 		width: 30.33%;
@@ -604,7 +604,7 @@ input {
 	}
 
 	#controls{
-		margin: 23% auto;
+		margin: 15% auto;
 	}
 /*Next  */
 	#slide1.page1:checked ~ #controls.page1 label:nth-child(2), 
