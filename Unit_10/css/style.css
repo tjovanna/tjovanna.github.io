@@ -583,11 +583,11 @@ input {
 @media only screen and (min-width: 670px) and (max-width: 999px) {
 	li {
 		display: block;
-		font-size: 0.75em;
+		font-size: 1em;
 		padding: 1em;
 	}
 	nav {
-		margin: -1em auto;
+		margin: -5% auto;
 	}
 	h3 {
 		display: none;
@@ -604,7 +604,7 @@ input {
 	}
 
 	#controls{
-		margin: 2em auto;
+		margin: 23% auto;
 	}
 /*Next  */
 	#slide1.page1:checked ~ #controls.page1 label:nth-child(2), 
@@ -1010,7 +1010,7 @@ input {
 		font-size: 1.5em;
 	}
 	h2 {
-		font-size: 1em;
+		font-size: 0.75em;
 		padding: 0.25em;
 	}
 	h3{
