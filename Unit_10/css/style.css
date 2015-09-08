@@ -95,7 +95,7 @@ a:hover{
 	margin: 4em auto 10em;
 }
 #about>h3 {
-	margin: 5em 0 1em -1em;
+	margin: 5em 0 0 -2em;
 }
 #about>a{
 	display: block;
@@ -261,7 +261,7 @@ input {
 	width: 100%;
 }
 #active.page2 {
-	margin: 20% 0 0;
+	margin: 35% 0 0;
 }
 #active.page4 {
 	margin: 17% 0 0;
